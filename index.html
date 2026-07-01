@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=Space+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15171c;
+    --paper:#ede9e1;
+    --paper-dim:#8a8d96;
+    --accent:#d6672a;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html, body{ height:100%; }
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Space Mono', monospace;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  .wrap{ padding:2rem; }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:clamp(3rem, 12vw, 7rem);
+    letter-spacing:-0.01em;
+  }
+  p{
+    margin-top:1rem;
+    font-size:0.85rem;
+    text-transform:uppercase;
+    letter-spacing:0.14em;
+    color:var(--paper-dim);
+  }
+  .dot{ color:var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Mahal</h1>
+    <p>Site coming soon<span class="dot">.</span></p>
+  </div>
+</body>
+</html>
